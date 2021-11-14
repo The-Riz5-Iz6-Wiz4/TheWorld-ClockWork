@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+}
+.container .container__side {
+  width: 30%;
+}
+.container .container__main {
+  flex: 1;
+  overflow: auto;
+}
