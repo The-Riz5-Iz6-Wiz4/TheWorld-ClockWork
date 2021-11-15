@@ -1,15 +1,44 @@
-.container {
-    display: flex;
+@minred: #E25150;
+@mingreen: #B4DABB;
 
-    .container__side {
-        width: 30%;
-
-    }
-
-    .container__main {
-        flex: 1;
-        overflow: auto;
-
-    }
-
+body {
+    background: @minred;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.menu {
+    position: relative;
+
+    .menu-content {
+        display: none;
+        left: 0;
+        padding: 0.75rem;
+        position: absolute;
+        top: calc(100% + .2rem);
+        border-radius: 0.2rem;
+
+        background-color: @mingreen;
+        z-index: 9999;
+
+        height: 125px;
+        width: 200px;
+
+        ul {
+            list-style: none;
+            font-size: 1.5 em;
+            color: black;
+            text-decoration: none;
+
+            li {
+                text-align: inherit;
+                display: list-item;
+                padding: 1 em;
+            }
+        }
+    }
+}
+
+.menu:hover .menu-content {
+    display: block;
+}
+
