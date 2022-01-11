@@ -14,9 +14,9 @@ Description of the app:
 ClockWork is an app/website designed to help people be more productive by use of the pomodoro method.
 
 Features:
-- Calendar where you can mark tasks that need to be done
+- To do list
 - Pomodoro clock
-- Productivity log to track how much you've done
 
-Other info:
-N/A for now
+Credits and references:
+- w3school
+- https://freshman.tech/pomodoro-timer/ for the pomodoro clock portion of the final project
